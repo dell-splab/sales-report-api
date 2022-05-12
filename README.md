@@ -26,6 +26,12 @@ A modelagem, os tipos e os relacionamentos entre esses dados pode ser feita da m
 3. Em nosso [mural de atividades](https://github.com/orgs/dell-splab/projects/1) certifique-se de adicionar a tarefa que está fazendo e em qual etapa se encontra.
 4. Faça um Pull Request! :D 
 
+### Primeiros passos
+
+1. Na sua IDE favorita tente executar a aplicação. (ex.: no VSCode carregue o projeto, encontre o arquivo `SalesReportApplication.java` e depois clique em `Run App` no canto superior direito.)
+2. Abra um navegador, Postman ou Insomina e acesse [http://localhost:8080/status](http://localhost:8080/status), não deve retornar mensagem de erro.
+3. Verifique se a documentação da API está Ok em [http://localhost:8080/v2/api-docs](http://localhost:8080/v2/api-docs) ou [http://localhost:8080/v2/swagger-ui.html](http://localhost:8080/v2/swagger-ui.html)
+
 ### Stack
 
 - O projeto deverá ser desenvolvido com uma das tecnologias a seguir: **SpringBoot/Java ou C# .NET Core**;
