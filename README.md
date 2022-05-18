@@ -51,7 +51,7 @@ Exemplo: Product
     "name": "string",
     "price": 0.0,
     "category": "string",
-    "desciption": "string"
+    "description": "string"
 }
 ```
 
