@@ -4,6 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
 
@@ -12,6 +14,11 @@ public class Lead {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	
+	@OneToOne
+	@JoinColumn(name = "client_id")
+	private Client client;
+	
 	@NotNull
 	private String name;
 	@NotNull
@@ -20,11 +27,17 @@ public class Lead {
 	private String salesPage;
 	
 	
-	public Lead(String name, String email, String salesPage) {
+	public Lead(Client client, String name, String email, String salesPage) {
 		super();
+		
+		this.client = client;
 		this.name = name;
 		this.email = email;
 		this.salesPage = salesPage;
+	}
+	
+	public Client getClient() {
+		return client;
 	}
 
 
@@ -33,28 +46,8 @@ public class Lead {
 	}
 
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-
 	public String getEmail() {
 		return email;
-	}
-
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-
-	public String getSalesPage() {
-		return salesPage;
-	}
-
-
-	public void setSalesPage(String salesPage) {
-		this.salesPage = salesPage;
 	}
 
 
