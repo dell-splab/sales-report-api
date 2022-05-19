@@ -12,7 +12,7 @@
 ```json
 [
     {
-        "uuid": "string",
+        "id": 0,
         "name": "string",
         "email": "string"
     },
@@ -59,7 +59,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary style="font-size:16pt">Products</summary>
 <br>
 
@@ -70,7 +70,7 @@
 ```json
 [
     {
-        "uuid": 0,
+        "id": 0,
         "name": "string",
         "price": 0.0,
         "category": "string",
@@ -124,6 +124,127 @@
 ```
 
 ### **`products/count/`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+{
+    "count": 0
+}
+```
+
+</details>
+
+<details>
+<summary style="font-size:16pt">Leads</summary>
+<br>
+
+### **`leads/`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+[
+    {
+        "client_id": 0,
+        "sales_page": "string",
+        "timestamp": "string"
+    },
+    ...
+]
+```
+
+<strong><span style="color:blue">POST</span></strong> request body:
+
+```json
+{
+    "nome": "string",
+    "email": "string",
+    "category": "string",
+    "timestamp": "string"
+}
+```
+
+### **`leads/{category}`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+[
+    {
+        "client_id": 0,
+        "timestamp": "string"
+    },
+    ...
+]
+```
+
+</details>
+
+<details>
+<summary style="font-size:16pt">Opportunities</summary>
+<br>
+
+### **`opps/`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+[
+    {
+        "client_id": 0,
+        "sales_page": "string"
+    },
+    ...
+]
+```
+
+### **`opps/count/`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+{
+    "count": 0
+}
+```
+
+</details>
+
+<details>
+<summary style="font-size:16pt">Sales</summary>
+<br>
+
+### **`sales/`**
+
+<strong><span style="color:lightgreen">GET</span></strong> response:
+
+```json
+[
+    {
+        "client_id": "string",
+        "produt_id": "string",
+        "timestamp": "string"
+    },
+    ...
+]
+```
+
+<strong><span style="color:blue">POST</span></strong> request body:
+
+```json
+{
+    "client_id": "string",
+    "items": [
+        {
+            "product_id": 0,
+            "price": 0.0
+        }
+    ]
+}
+```
+
+### **`sales/count/`**
 
 <strong><span style="color:lightgreen">GET</span></strong> response:
 
