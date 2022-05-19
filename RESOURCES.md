@@ -222,8 +222,8 @@
 ```json
 [
     {
-        "client_id": "string",
-        "produt_id": "string",
+        "client_id": 0,
+        "produt_id": 0,
         "timestamp": "string"
     },
     ...
@@ -234,7 +234,7 @@
 
 ```json
 {
-    "client_id": "string",
+    "client_id": 0,
     "items": [
         {
             "product_id": 0,
