@@ -160,8 +160,7 @@
 {
     "nome": "string",
     "email": "string",
-    "category": "string",
-    "timestamp": "string"
+    "category": "string"
 }
 ```
 
