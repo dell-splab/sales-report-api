@@ -1,0 +1,15 @@
+id,name,price,category,description
+10,Notebook Inspiron 13,"R$5.599,00",notebooks,"Tarefas diárias, estudo e lazer. Windows 11, Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada Full HD+ de 13.3” (1920 x 1200) 300nits WVA 100% sRGB Low Blue Light SSD de 256GB PCIe NVMe M.2 Memória de 8GB"
+11,Notebook XPS 13;,"R$9.299,00",notebooks,"Experiência de alta performance. Windows 11, Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada UHD+ Touch de 13.4” (3840 x 2400) 500 nits borda infinita e Anti-Smudge SSD de 1TB PCIe NVMe M.2 Memória de 16GB"
+12,Novo Notebook Inspiron 15 3000,"R$2.997,00",notebooks,Placa de vídeo Intel® UHD com memória gráfica compartilhada Full HD de 15.6” (1920 x 1080) WVA SSD de 128GB PCIe NVMe M.2 Memória de 4GB
+13,Notebook Vostro 14 3000,"R$2.899,00",notebooks,Placa de vídeo Intel® UHD com memória gráfica compartilhada HD de 14” (1366 x 768) SSD de 128GB PCIe NVMe M.2 Memória de 4GB
+14,All in One Inspiron 24 5000,"R$4.699,00",computadores e PCs,11ª geração de Intel® Core™ i5-1135G7 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB
+15,Vostro Small Desktop,"R$2.851,00",computadores e PCs,10ª geração de Intel® Core™ i3-10100 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® UHD com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB Desenvolvido para uso profissional
+16,OptiPlex 3090 Micro,"R$2.528,00",computadores e PCs,Desempenho inteligente para empresas. Intel® Pentium® Gold G6505T Windows 10 Pro (A Dell Technologies recomenda o Windows 11 Pro para empresas) SSD de 128GB PCIe NVMe M.2 (Classe 35) Memória de 4 GB
+17,Monitor Dell 18.5” E1920H,"R$819,00",monitores,"18,5 1366 x 768 a 60Hz 5ms (cinzento-para-cinzento) VGA DisplayPort"
+18,Monitor Dell de 21.5” E2222HS,"R$1.030,00",monitores,"21.45” Full HD (1080p) 1920 x 1080 a 60Hz, 10 ms (cinza para cinza normal); 5 ms (cinza para cinza rápido) HDMI VGA DisplayPort"
+19,Monitor Dell Gamer de 27” G2722HS,"R$2.512,00",monitores,27” Full HD (1080p) 1920 x 1080 a 165 Hz AMD FreeSync NVIDIA G-SYNC 1ms (cinza-a-cinza) 2xHDMI DisplayPort
+20,Mochila Dell Pro EcoLoop para notebook,"R$253,00",acessorios,
+21,Teclado e Mouse Dell sem fio KM5221W,"R$244,00",acessorios,A combinação de um teclado discreto e eficiente com um mouse especialmente projetado aumenta sua produtividade.
+22,Mouse Dell sem fio WM126 - Preto,"R$99,00",acessorios,"Modo de conexão sem fio. Emparelhamento universal Dell, suporta até 6 dispositivos no mesmo receptor."
+23,Servidor Torre PowerEdge T150,"R$4.999,00",servidores,Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local
