@@ -51,7 +51,7 @@ Exemplo: Product
     "name": "string",
     "price": 0.0,
     "category": "string",
-    "desciption": "string"
+    "description": "string"
 }
 ```
 
@@ -63,7 +63,7 @@ Exemplo: Product
 - `[GET]/: ` Retornar um Status: 200 e uma Mensagem "Back-end Sales Report is running."
 - `[GET]/leads/:` Listar todos os visitantes nas páginas de vendas.
 - `[GET]/leads/{category}:` Listar todos os visitantes por página de vendas.
-- `[POST]/leads/{category}:` Registrar um novo visitante/possível cliente.
+- `[POST]/leads/:` Registrar um novo visitante/possível cliente.
 - `[GET]/opps/:` Listar as oportunidades de vendas (clientes que compraram 2 ou mais produtos e visitaram e a página de vendas de um produto que ainda não possuem).
 - `[GET]/opps/count/:` Retornar a quantidade de oportunidades de vendas.
 - `[GET]/products/:` Listar todos os produtos.
@@ -79,7 +79,7 @@ Exemplo: Product
 - `[PUT]/clients/{id}:` Atualizar os informações de um cliente baseado no `id`.
 - `[GET]/sales/:` Listar as vendas realizadas.
 - `[GET]/sales/count/:` Retornar o número total de vendas.
-- `[POST]/sales/:` Registrar uma nova venda (precida ser de um cliente cadastrado).
+- `[POST]/sales/:` Registrar uma nova venda (precisa ser de um cliente cadastrado).
 - `[GET]/reports/sales/:` Listar um resumo de vendas por data (ano/mes/dia).
 - `[GET]/reports/clients/:` Listar um resumo de compras de todos os clientes.
 - `[GET]/reports/clients/{id}:` Listar o resumo de compras de um cliente baseado no `id`.
