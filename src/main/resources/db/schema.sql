@@ -1,0 +1,45 @@
+TRUNCATE TABLE sales CASCADE;
+TRUNCATE TABLE leads CASCADE;
+TRUNCATE TABLE clients CASCADE;
+TRUNCATE TABLE products CASCADE;
+
+DROP TABLE sales;
+DROP TABLE leads;
+DROP TABLE clients;
+DROP TABLE products;
+
+CREATE TABLE IF NOT EXISTS clients (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(1023) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS products (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price NUMERIC (12, 2) NOT NULL,
+    category VARCHAR(255) NOT NULL,
+    description VARCHAR(1023) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS leads (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(1023) NOT NULL,
+    sales_page VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS sales (
+    client_id INT NOT NULL,
+    product_id INT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    FOREIGN KEY (client_id)
+        REFERENCES clients (id),
+    FOREIGN KEY (product_id)
+        REFERENCES products (id)    
+);
+
+CREATE TABLE IF NOT EXISTS dummies (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
