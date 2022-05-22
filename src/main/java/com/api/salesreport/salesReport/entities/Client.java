@@ -2,22 +2,17 @@ package com.api.salesreport.salesReport.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 
 @Entity
-public class Client {
-	@Id
-	private Integer id;
-	@NotNull
-	private String name;
-	@NotNull
-	private String email;
+@Table(name = "client")
+public class Client extends Visitor{
 	
-	
-	public Client(Integer id, String name, String email) {
+	public Client(String name, String email) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.email = email;
 	}
@@ -37,8 +32,4 @@ public class Client {
 		return email;
 	}
 
-
-	public Integer getId() {
-		return id;
-	}	
 }
