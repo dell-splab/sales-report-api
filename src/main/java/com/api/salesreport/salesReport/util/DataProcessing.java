@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -52,31 +53,48 @@ public class DataProcessing {
 		String targetPath = "src\\main\\resources\\db\\data.sql";
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetPath))) {
 			
+			Map<String, Boolean> valueIsString; 
+			
 			for (String s: dataMap.get("clients.csv")) {
-				bw.write(getInsertClientSQLCommand(s.split(",")));
+				valueIsString = fillLinkedHashMap(new String[] {"ID", "NAME", "EMAIL"}, new Boolean[] {false, true, true});
+				
+				bw.write(getInsertSQLCommand("client", valueIsString, s.split(",")));
 				bw.newLine();
 				bw.newLine();
 			}
 			bw.newLine();
+			bw.newLine();
 			
 			for (String s: dataMap.get("products.csv")) {
+				valueIsString = fillLinkedHashMap(new String[] {"ID", "NAME", "PRICE", "CATEGORY", "DESCRIPTION"}, 
+						        new Boolean[] {false, true, false, true, true});
 				
-				bw.write(getInsertProductSQLCommand(formatStringProduct(s.split(","))));
+				bw.write(getInsertSQLCommand("product", valueIsString, formatStringProduct(s.split(","))));
 				bw.newLine();
 				bw.newLine();
 			}
 			bw.newLine();
 			
 			for (String s: dataMap.get("sales.log")) {
-				bw.write(getInsertSaleSQLCommand(s.split(",")));
+				valueIsString = fillLinkedHashMap(new String[] {"CLIENT_ID", "PRODUCT_ID", "TIMESTAMP"}, new Boolean[] {false, false, true});
+				
+				bw.write(getInsertSQLCommand("sale", valueIsString, s.split(",")));
 				bw.newLine();
 				bw.newLine();
 			}
 			bw.newLine();
 			
-			int i = 1;
+			int j = 1;
 			for (String s: dataMap.get("leads.csv")) {
-				bw.write(getInsertLeadSQLCommand(i++, s.split(",")));
+				valueIsString = fillLinkedHashMap(new String[] {"ID", "NAME", "EMAIL", "SALES_PAGE"}, new Boolean[] {false, true, true, true});
+				String[] arrayLead = new String[4];
+				
+				arrayLead[0] = String.valueOf(j++);
+				for (int i = 1; i < arrayLead.length; i++) {
+					arrayLead[i] = s.split(",")[i-1];
+				}
+				
+				bw.write(getInsertSQLCommand("lead", valueIsString, arrayLead));
 				bw.newLine();
 				bw.newLine();
 			}
@@ -88,30 +106,43 @@ public class DataProcessing {
 			e.printStackTrace();
 		}
 	}
+	
+	public static String getInsertSQLCommand(String dataName, Map<String, Boolean> valueIsString, String[] data) {
+		StringBuilder sb = new StringBuilder();
+		
+		String result = "insert into " + dataName + " (";
+		for (String s: valueIsString.keySet()) {
+			result += s + ", ";
+		}
+		result += ")";
+		result = result.replace(", )", ")\n");
+		sb.append(result);
+		
+		result = "values(";
+		int i = 0;
+		for (String s: valueIsString.keySet()) {
+			if (valueIsString.get(s)) {
+				result += String.format("'%s', ", data[i++]);
+			}
+			else {
+				result += String.format("%s, ", data[i++]);
+			}
+		}
+		result += ");";
+		result = result.replace(", );", ");");
+		
+		sb.append(result);
 
-	public static String getInsertClientSQLCommand(String[] data) {
-		String result = "insert into client (ID, NAME, EMAIL)\n"
-				+ String.format("values(%s,'%s','%s');", data[0], data[1], data[2]);
-
-		return result;
-	}
-
-	public static String getInsertProductSQLCommand(String[] data) {
-		String result = "insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)\n"
-				+ String.format("values(%s,'%s',%s,'%s','%s');", data[0], data[1], 
-						data[2] + "." + data[3], data[4], data[5]);
-		return result;
-	}
-
-	public static String getInsertSaleSQLCommand(String[] data) {
-		String result = "insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)\n"
-				+ String.format("values(%s, %s, '%s');", data[0], data[1], data[2]);
-		return result;
+		return sb.toString();
 	}
 	
-	public static String getInsertLeadSQLCommand(int iD, String[] data) {
-		String result = "insert into lead (ID, NAME, EMAIL, SALES_PAGE)\n"
-				+ String.format("values(%s, '%s', '%s', '%s');",Integer.toString(iD), data[0], data[1], data[2]);
+	public static LinkedHashMap<String, Boolean> fillLinkedHashMap(String[] str, Boolean[] bool) {
+		LinkedHashMap<String, Boolean> result = new LinkedHashMap<>();
+		
+		for (int i = 0; i < str.length; i++) {
+			result.put(str[i], bool[i]);
+		}
+		
 		return result;
 	}
 	
@@ -139,7 +170,12 @@ public class DataProcessing {
 		}
 		result[2] = result[2].replace("\"R$", "").replace(".", "");
 		result[3] = result[3].replace("\"", "");
+		result[2] = result[2] + "." + result[3];
+		result[3] = result[4];
+		result[4] = result[5];
 		
-		return result;
+		return Arrays.copyOf(result, 5);
 	}
+	
+	
 }
