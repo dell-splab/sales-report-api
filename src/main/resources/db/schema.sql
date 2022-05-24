@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS leads (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(1023) NOT NULL,
-    sales_page VARCHAR(255) NOT NULL
+    salespage VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS sales (
@@ -37,9 +37,4 @@ CREATE TABLE IF NOT EXISTS sales (
         REFERENCES clients (id),
     FOREIGN KEY (product_id)
         REFERENCES products (id)    
-);
-
-CREATE TABLE IF NOT EXISTS dummies (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
 );
