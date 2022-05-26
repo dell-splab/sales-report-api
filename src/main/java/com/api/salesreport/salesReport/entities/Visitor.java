@@ -3,9 +3,8 @@ package com.api.salesreport.salesReport.entities;
 import javax.persistence.*;
 
 
-@Entity
 @Table(name = "visitor")
-@Inheritance(strategy = InheritanceType.JOINED)
+@MappedSuperclass
 public abstract class Visitor {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
