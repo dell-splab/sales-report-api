@@ -7,11 +7,12 @@ import java.math.BigDecimal;
 
 
 @Entity
+@SequenceGenerator(name="seq_product", sequenceName="seq_product", allocationSize=1)
 public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "seq_product")
 	private Integer id;
 	
 	private String name;
@@ -22,7 +23,7 @@ public class Product implements Serializable {
 	
 	private String description;
 	
-	private Product() {
+	public Product() {
 	}
 	
 	public Product(Integer id, String name, BigDecimal price, String category, String description) {

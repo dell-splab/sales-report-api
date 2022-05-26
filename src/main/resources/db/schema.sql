@@ -1,3 +1,7 @@
+
+CREATE SEQUENCE IF NOT EXISTS seq_product START 24 INCREMENT 1;
+
+
 CREATE TABLE IF NOT EXISTS client (
     id   serial PRIMARY KEY,
     name VARCHAR ( 50 ) NOT NULL,
