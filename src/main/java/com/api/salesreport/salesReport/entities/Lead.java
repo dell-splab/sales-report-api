@@ -14,6 +14,9 @@ public class Lead extends Visitor{
 	@Column(name = "sales_page", nullable = false)
 	private String salesPage;
 	
+	public Lead() {
+		super();
+	}
 	
 	public Lead(String name, String email, String salesPage) {
 		super();

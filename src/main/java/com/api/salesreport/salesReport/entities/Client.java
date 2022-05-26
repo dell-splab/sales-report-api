@@ -11,6 +11,10 @@ import javax.validation.constraints.NotNull;
 @Table(name = "client")
 public class Client extends Visitor{
 	
+	public Client() {
+        super();
+    }
+	
 	public Client(String name, String email) {
 		super();
 		this.name = name;

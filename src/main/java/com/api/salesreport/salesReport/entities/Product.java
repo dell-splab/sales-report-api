@@ -28,6 +28,9 @@ public class Product {
 	@Column(name = "description", nullable = false)
 	private String description;
 	
+	public Product() {
+		super();
+	}
 	
 	public Product(String name, Float price, String category, String description) {
 		super();

@@ -31,6 +31,11 @@ public class Sale {
 	private Timestamp timestamp;
 	
 	
+	public Sale() {
+		super();
+	}
+
+	
 	public Sale(Client client, Product product, Timestamp timestamp) {
 		super();
 		this.client = client;
