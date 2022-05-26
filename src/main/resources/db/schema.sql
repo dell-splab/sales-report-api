@@ -1,3 +1,13 @@
+TRUNCATE TABLE sale CASCADE;
+TRUNCATE TABLE lead CASCADE;
+TRUNCATE TABLE client CASCADE;
+TRUNCATE TABLE product CASCADE;
+
+DROP TABLE sale;
+DROP TABLE lead;
+DROP TABLE client;
+DROP TABLE product;
+
 CREATE TABLE IF NOT EXISTS client (
     id   serial PRIMARY KEY,
     name VARCHAR ( 50 ) NOT NULL,
@@ -14,10 +24,10 @@ CREATE TABLE IF NOT EXISTS product (
 );
 
 CREATE TABLE IF NOT EXISTS sale (
-  client_id INTEGER  NOT NULL,
+  id SERIAL PRIMARY KEY,
+  client_id INTEGER NOT NULL,
   product_id INTEGER NOT NULL,
-  timestamp TIMESTAMP,
-  PRIMARY KEY (client_id, product_id),
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   FOREIGN KEY (client_id)
       REFERENCES client (id),
   FOREIGN KEY (product_id)
@@ -31,7 +41,4 @@ CREATE TABLE IF NOT EXISTS lead (
     sales_page VARCHAR(128) NOT NULL
 );
 
-TRUNCATE TABLE sale CASCADE;
-TRUNCATE TABLE lead CASCADE;
-TRUNCATE TABLE client CASCADE;
-TRUNCATE TABLE product CASCADE;
+
