@@ -210,919 +210,919 @@ insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
 values(23,'Servidor Torre PowerEdge T150',4999.00,'servidores','Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local');
 
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 16, '2017-03-09T11:28:58.907349');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 16, '2017-03-21T13:30:31.934349');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 21, '2017-03-25T01:25:46.294066');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 22, '2017-03-26T03:41:34.627030');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(193, 20, '2017-03-28T21:33:01.685548');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(206, 21, '2017-03-31T23:22:36.219530');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 11, '2017-04-13T04:44:55.371405');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(233, 18, '2017-04-23T02:12:50.815946');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 15, '2017-04-25T00:47:46.139458');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 19, '2017-05-02T18:56:51.826974');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(209, 13, '2017-05-17T17:31:02.632500');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(209, 11, '2017-05-21T08:25:24.287911');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 21, '2017-05-22T19:19:59.505434');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 18, '2017-05-25T01:46:34.757185');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 21, '2017-05-28T08:16:31.669782');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 15, '2017-05-30T12:20:47.532911');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 22, '2017-06-01T20:45:38.993630');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(215, 23, '2017-06-04T05:47:34.034437');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(112, 21, '2017-06-04T23:56:38.091726');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 11, '2017-06-09T14:41:16.276669');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 16, '2017-06-12T03:52:59.543434');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(192, 13, '2017-06-14T12:07:02.760995');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 10, '2017-06-18T08:31:07.270001');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(116, 23, '2017-06-27T18:19:52.648988');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(155, 19, '2017-06-27T23:21:09.504313');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 21, '2017-06-29T23:26:05.248518');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(141, 11, '2017-07-05T20:16:42.187339');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 17, '2017-07-06T17:36:16.202955');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 16, '2017-07-08T08:44:36.947792');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 16, '2017-07-10T05:18:16.186023');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 17, '2017-07-16T10:30:22.132331');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 18, '2017-07-27T12:33:57.638562');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(129, 19, '2017-07-30T01:15:00.250134');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 14, '2017-07-31T00:39:34.105685');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(141, 19, '2017-08-09T09:01:13.363457');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 18, '2017-08-17T19:42:42.216871');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 14, '2017-08-18T17:50:01.122568');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(233, 17, '2017-08-27T21:24:27.648967');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(155, 23, '2017-08-31T18:41:28.146959');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 10, '2017-09-07T01:00:45.169935');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(105, 10, '2017-09-12T16:41:02.098023');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 20, '2017-09-17T01:45:45.931522');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 12, '2017-09-17T07:41:57.280829');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 14, '2017-09-21T16:19:15.886023');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 18, '2017-09-23T15:58:47.657935');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(216, 12, '2017-09-25T22:56:25.141793');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 15, '2017-09-26T22:28:37.393968');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 17, '2017-09-30T12:18:20.503832');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(137, 21, '2017-10-10T12:03:04.417037');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 10, '2017-10-11T11:31:27.039317');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 16, '2017-10-17T16:20:39.208416');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 15, '2017-10-17T22:05:58.917962');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(217, 13, '2017-10-18T20:09:08.189020');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(154, 21, '2017-11-07T20:39:30.131463');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(153, 22, '2017-11-15T14:03:21.158682');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 16, '2017-12-16T01:33:37.479954');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 10, '2017-12-20T09:27:09.019751');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(125, 15, '2018-01-15T08:15:36.878543');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(155, 18, '2018-01-27T02:07:24.337349');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 10, '2018-02-02T21:48:01.886671');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 13, '2018-02-04T21:38:19.022290');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(109, 19, '2018-02-06T23:26:58.890140');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(111, 13, '2018-03-20T10:34:07.423626');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 20, '2018-03-25T15:33:03.986097');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 15, '2018-04-09T09:31:21.619764');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(109, 14, '2018-04-14T16:29:21.149774');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 10, '2018-04-21T16:53:35.675685');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(125, 20, '2018-05-02T09:43:50.062001');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(191, 14, '2018-05-07T23:18:34.317156');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 10, '2018-05-08T10:46:07.648934');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 14, '2018-05-10T21:06:21.151420');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 16, '2018-05-12T04:26:07.967552');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 22, '2018-05-19T03:50:18.737892');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 15, '2018-05-21T01:36:46.705594');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(215, 12, '2018-06-12T18:41:02.158457');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 16, '2018-06-23T03:00:40.316232');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(170, 23, '2018-07-19T08:52:35.431349');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 16, '2018-08-05T06:26:39.234721');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 13, '2018-08-10T10:41:27.546571');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 18, '2018-08-14T14:15:35.121328');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 19, '2018-08-22T15:35:58.670682');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(129, 13, '2018-08-26T03:40:09.430135');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(184, 23, '2018-08-28T22:25:12.720016');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 20, '2018-08-29T14:29:32.716355');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(170, 14, '2018-08-31T15:42:16.793493');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 17, '2018-09-02T00:10:39.796279');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 10, '2018-09-08T23:13:39.045990');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(109, 10, '2018-09-10T16:10:14.416218');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 16, '2018-09-24T17:58:38.768373');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 20, '2018-09-27T17:09:05.942837');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(128, 13, '2018-09-29T02:35:31.305426');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 23, '2018-09-29T23:00:21.382285');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 11, '2018-10-02T19:44:30.538258');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(206, 13, '2018-10-03T06:09:37.029517');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(192, 10, '2018-10-04T10:26:55.273075');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 18, '2018-10-11T11:08:46.833359');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 14, '2018-10-22T02:23:08.336264');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(226, 10, '2018-10-30T08:28:27.842878');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 11, '2018-11-14T20:45:40.746942');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 18, '2018-11-21T02:53:21.884615');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(233, 10, '2018-11-22T20:08:10.792260');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(226, 19, '2018-11-28T05:21:41.260229');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(154, 20, '2018-11-30T06:51:42.509408');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(221, 16, '2018-12-05T03:10:34.634726');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 16, '2018-12-05T09:03:23.844161');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(221, 13, '2018-12-22T19:42:27.396913');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 16, '2018-12-24T07:30:43.944857');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(116, 22, '2018-12-27T08:23:38.473749');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 21, '2018-12-30T01:06:46.214604');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 12, '2019-01-10T02:02:49.361744');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 17, '2019-01-12T22:21:37.238315');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 14, '2019-01-15T18:14:19.178067');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(221, 10, '2019-01-16T22:11:44.171770');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 16, '2019-01-27T07:19:14.858405');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 10, '2019-02-02T15:27:55.543382');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 10, '2019-02-04T00:16:04.108644');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 21, '2019-02-13T21:59:27.124951');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 14, '2019-02-20T08:56:18.338753');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 22, '2019-02-22T19:02:18.297581');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 17, '2019-03-02T22:38:26.226824');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 11, '2019-03-03T00:05:46.005821');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(191, 17, '2019-03-13T06:49:43.725512');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 18, '2019-03-26T19:31:27.676201');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(125, 21, '2019-03-29T06:31:35.366611');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(180, 18, '2019-03-29T17:10:19.048764');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 20, '2019-04-02T23:35:04.057293');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 12, '2019-04-05T15:31:27.276862');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 12, '2019-04-12T07:25:07.577380');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 13, '2019-04-15T07:07:50.167618');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 20, '2019-04-16T01:43:17.305755');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 23, '2019-04-21T17:44:18.701094');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 23, '2019-04-30T16:17:38.818386');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(116, 20, '2019-05-03T04:03:44.147023');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 19, '2019-05-03T19:52:53.131977');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(153, 20, '2019-05-06T15:23:32.067748');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(211, 22, '2019-05-16T18:53:12.018431');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(206, 15, '2019-05-28T09:51:28.734707');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 16, '2019-05-29T01:20:36.272508');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 14, '2019-05-29T16:24:59.572532');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(193, 11, '2019-05-31T03:21:35.097254');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(109, 11, '2019-06-03T19:43:03.361477');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 20, '2019-06-11T15:02:24.818771');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(154, 15, '2019-06-21T23:42:23.215370');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 16, '2019-06-29T21:00:27.408420');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 15, '2019-07-04T07:16:43.227752');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 17, '2019-07-07T21:44:52.913558');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 14, '2019-07-13T18:51:31.648596');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 13, '2019-07-14T20:57:47.234874');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(153, 13, '2019-07-28T15:25:17.368498');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 17, '2019-07-31T21:24:08.131875');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(217, 16, '2019-08-01T10:51:14.529003');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 11, '2019-08-07T19:12:39.258544');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(191, 13, '2019-08-14T13:08:51.080693');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(233, 11, '2019-08-22T21:18:43.809507');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 21, '2019-08-23T11:11:06.653319');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(129, 17, '2019-09-03T01:08:53.978331');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 14, '2019-09-07T05:32:41.225391');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(180, 19, '2019-09-24T20:59:47.395558');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 15, '2019-10-01T03:54:16.026707');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 22, '2019-10-06T21:53:12.001219');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 20, '2019-10-10T11:23:12.987466');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(184, 14, '2019-10-20T14:36:41.210596');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(215, 13, '2019-10-22T01:55:43.614794');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(193, 22, '2019-10-24T06:55:33.413849');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 18, '2019-10-27T19:58:19.970420');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 13, '2019-11-02T12:20:56.046041');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 19, '2019-11-13T17:53:57.881481');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 17, '2019-11-28T10:28:45.845122');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(217, 10, '2019-11-30T06:05:29.157195');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(193, 23, '2019-12-01T13:19:55.460233');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 16, '2019-12-18T09:17:16.773285');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(170, 10, '2019-12-23T00:35:02.712541');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 15, '2019-12-25T15:22:14.272773');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 13, '2019-12-26T02:52:38.809145');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(206, 16, '2019-12-28T11:13:46.375824');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 11, '2019-12-28T13:39:35.096663');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 17, '2020-01-01T01:23:47.915369');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 19, '2020-01-10T00:40:00.219616');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(112, 10, '2020-01-25T11:51:44.573519');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 22, '2020-01-27T09:17:18.901747');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(180, 11, '2020-02-02T18:11:22.599463');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 15, '2020-02-12T15:45:20.830512');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 20, '2020-02-23T12:49:00.475275');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(160, 19, '2020-03-09T16:40:10.145836');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 12, '2020-03-21T21:07:36.054858');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 20, '2020-03-24T11:35:19.857849');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(180, 17, '2020-03-26T18:22:28.242383');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(177, 13, '2020-03-29T09:29:11.316552');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 11, '2020-04-07T04:50:25.334153');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(215, 19, '2020-04-07T10:24:40.689993');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(191, 16, '2020-04-13T08:21:53.828240');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(192, 14, '2020-04-26T02:43:59.800111');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(144, 14, '2020-04-30T05:39:14.280316');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(137, 15, '2020-05-01T04:37:26.575661');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(105, 21, '2020-05-15T03:24:59.724370');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 16, '2020-05-16T11:25:32.584770');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(184, 19, '2020-06-05T10:16:12.784719');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 14, '2020-06-21T03:09:09.162372');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 15, '2020-06-23T20:48:31.203430');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(141, 17, '2020-07-02T17:41:21.083240');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(137, 22, '2020-07-09T15:43:01.646751');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(125, 12, '2020-07-10T13:50:58.366030');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(216, 11, '2020-07-10T17:35:01.217701');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(211, 16, '2020-07-14T05:00:36.680462');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(184, 15, '2020-08-01T21:26:16.268090');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 11, '2020-08-02T11:28:55.301377');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(203, 11, '2020-08-10T11:33:38.052661');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(128, 15, '2020-08-12T07:32:58.020080');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(226, 17, '2020-08-14T02:57:16.697367');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(112, 20, '2020-08-26T06:09:28.745751');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 20, '2020-08-30T17:12:46.339993');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 12, '2020-09-11T14:18:47.236820');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(196, 17, '2020-09-14T22:02:54.792650');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 17, '2020-09-17T14:18:22.049090');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 10, '2020-09-19T23:17:27.998024');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(170, 18, '2020-10-09T09:15:54.510570');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 19, '2020-10-20T02:02:58.665862');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 19, '2020-10-28T00:14:44.607917');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(180, 12, '2020-11-07T17:00:26.993216');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(192, 15, '2020-11-09T16:51:54.486765');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 18, '2020-11-09T20:11:27.582496');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 14, '2020-11-16T01:10:22.814532');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 17, '2020-11-21T20:54:28.090447');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 12, '2020-12-07T06:23:26.111092');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(148, 13, '2020-12-10T04:57:23.051297');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(111, 11, '2020-12-10T18:25:47.918350');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(144, 13, '2020-12-17T13:10:38.951676');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(215, 15, '2020-12-21T09:28:11.798686');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(221, 21, '2021-01-05T22:18:37.515755');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 21, '2021-01-11T00:18:27.985616');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(193, 16, '2021-01-15T08:23:39.284613');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 10, '2021-02-04T09:51:56.859454');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(174, 15, '2021-02-16T23:52:30.631068');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(141, 14, '2021-02-19T16:52:49.132324');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(233, 16, '2021-03-04T15:05:41.375264');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(166, 22, '2021-03-06T03:34:44.216702');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(148, 21, '2021-03-30T22:58:00.907312');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(170, 17, '2021-04-05T11:11:53.230213');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(128, 20, '2021-04-10T01:01:24.846620');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 13, '2021-04-19T20:55:16.444159');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(209, 15, '2021-04-29T01:46:02.450223');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 17, '2021-04-30T09:52:48.084752');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(184, 17, '2021-05-03T04:57:04.816010');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(151, 12, '2021-05-05T08:59:58.377181');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(128, 14, '2021-05-10T03:01:21.202068');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(145, 23, '2021-05-17T20:47:38.601613');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(226, 13, '2021-05-24T13:00:33.095794');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(150, 13, '2021-05-30T18:15:55.042691');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(109, 22, '2021-05-30T22:20:05.469210');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 18, '2021-06-01T21:00:04.892723');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 17, '2021-06-07T21:34:12.246529');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 11, '2021-06-12T05:00:00.968022');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 14, '2021-06-13T18:11:23.995357');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 21, '2021-06-16T23:20:59.674483');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(116, 17, '2021-06-19T20:23:03.397472');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 11, '2021-06-20T20:15:21.515119');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 16, '2021-07-08T06:51:17.395112');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(185, 12, '2021-07-08T15:25:39.960974');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(182, 22, '2021-08-01T17:23:18.418529');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(153, 10, '2021-08-02T02:45:20.718704');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(209, 14, '2021-08-02T15:26:02.964149');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(111, 22, '2021-08-05T06:24:27.460105');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(112, 11, '2021-08-05T14:29:25.728680');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(131, 12, '2021-08-19T08:32:04.814135');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 21, '2021-08-29T10:45:04.759045');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 19, '2021-08-30T02:14:12.487019');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(117, 13, '2021-09-16T15:21:30.795917');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(144, 10, '2021-10-01T02:41:31.517517');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(105, 16, '2021-10-02T02:16:09.831445');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(152, 19, '2021-10-02T08:45:12.863972');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(148, 23, '2021-10-10T20:30:41.736461');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(217, 11, '2021-10-12T16:50:33.731696');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(128, 11, '2021-10-16T13:47:57.279010');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(216, 10, '2021-10-22T07:55:47.078503');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(136, 19, '2021-10-25T23:38:31.170075');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(221, 12, '2021-11-10T00:18:36.555653');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(119, 14, '2021-11-10T16:48:38.304021');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(144, 22, '2021-11-14T01:25:44.380689');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 23, '2021-11-16T11:26:39.606919');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(204, 15, '2021-11-22T07:15:01.039546');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(210, 17, '2021-11-24T05:25:57.265607');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(209, 16, '2021-12-02T15:34:24.410281');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 18, '2021-12-03T09:40:40.991407');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 22, '2021-12-04T09:25:59.565894');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(148, 15, '2021-12-04T16:40:06.272787');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(160, 13, '2021-12-09T16:22:54.374920');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(121, 18, '2021-12-19T22:12:21.619377');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(183, 22, '2022-01-11T05:10:45.660547');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(105, 23, '2022-01-20T07:51:31.547803');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 15, '2022-01-25T16:34:57.086141');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(111, 17, '2022-01-26T16:55:04.584956');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(116, 19, '2022-01-31T02:21:26.090057');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(112, 15, '2022-01-31T19:31:35.414735');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 19, '2022-02-11T21:46:43.360676');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(230, 18, '2022-02-13T09:30:53.773520');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(176, 17, '2022-02-17T13:44:26.423303');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(211, 13, '2022-02-27T03:17:18.766511');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(226, 22, '2022-02-28T00:35:44.078304');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(191, 21, '2022-03-03T18:06:41.620449');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 23, '2022-03-05T00:24:10.269176');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(148, 12, '2022-03-07T20:46:01.172506');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(160, 14, '2022-03-13T22:20:30.194694');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(106, 22, '2022-03-19T10:33:55.308138');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(139, 18, '2022-03-21T01:21:54.042039');
 
-insert into sale (CLIENT_ID, PRODUCT_ID, TIMESTAMP)
+insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(127, 21, '2022-04-07T16:12:38.327415');
 
 
