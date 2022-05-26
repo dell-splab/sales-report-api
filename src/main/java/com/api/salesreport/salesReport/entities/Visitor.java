@@ -2,17 +2,17 @@ package com.api.salesreport.salesReport.entities;
 
 import javax.persistence.*;
 
-@Table(name = "visitor")
 @MappedSuperclass
 public abstract class Visitor {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	protected long id;
 
-	@Column(name = "name", nullable = false)
+	@Column(name = "name")
 	protected String name;
 
-	@Column(name = "email", nullable = false)
+	@Column(name = "email")
 	protected String email;
 
 	public long getId() {
@@ -38,5 +38,4 @@ public abstract class Visitor {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 }

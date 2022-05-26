@@ -8,7 +8,7 @@ import javax.persistence.Table;
 @Table(name = "Lead")
 public class Lead extends Visitor {
 
-	@Column(name = "sales_page", nullable = false)
+	@Column(name = "sales_page")
 	private String salesPage;
 
 	public Lead() {

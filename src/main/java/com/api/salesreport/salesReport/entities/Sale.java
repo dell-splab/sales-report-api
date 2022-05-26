@@ -1,65 +1,64 @@
 package com.api.salesreport.salesReport.entities;
 
-import java.security.Timestamp;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
 
 @Entity
 @Table(name = "sale")
 public class Sale {
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-	
-	@OneToOne
-	@JoinColumn(name = "client_id", nullable = false)
-	private Client client;
-	
-	@OneToOne
-	@JoinColumn(name = "product_id", nullable = false)
-	private Product product;
-	
-	@Column(name = "timestamp", nullable = false)
-	private Timestamp timestamp;
-	
-	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+
+	@Column(name = "client_id")
+	private long clientId;
+
+	@Column(name = "product_id")
+	private long productId;
+
+	@Column(name = "created_at")
+	private Date createdAt;
+
 	public Sale() {
 		super();
 	}
 
-	
-	public Sale(Client client, Product product, Timestamp timestamp) {
-		super();
-		this.client = client;
-		this.product = product;
-		this.timestamp = timestamp;
+	public long getId() {
+		return this.id;
 	}
 
-
-	public Timestamp getTimestamp() {
-		return timestamp;
+	public void setId(long id) {
+		this.id = id;
 	}
 
-
-	public Integer getId() {
-		return id;
+	public long getClientId() {
+		return this.clientId;
 	}
 
-
-	public Client getClient() {
-		return client;
+	public void setClientId(long clientId) {
+		this.clientId = clientId;
 	}
 
+	public long getProductId() {
+		return this.productId;
+	}
 
-	public Product getProduct() {
-		return product;
+	public void setProductId(long productId) {
+		this.productId = productId;
+	}
+
+	public Date getCreatedAt() {
+		return this.createdAt;
+	}
+
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
 	}
 }
