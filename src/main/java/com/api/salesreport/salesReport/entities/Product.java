@@ -1,35 +1,44 @@
 package com.api.salesreport.salesReport.entities;
 
 import javax.persistence.*;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 
 @Entity
-@Table(name = "product")
-public class Product {
+public class Product implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@Column(name = "name", nullable = false)
 	private String name;
 	
-	@Column(name = "price", nullable = false)
 	private BigDecimal price;
 	
-	@Column(name = "category", nullable = false)
 	private String category;
 	
-	@Column(name = "description", nullable = false)
 	private String description;
 	
+	private Product() {
+	}
 	
-	public Product(String name, BigDecimal price, String category, String description) {
-		super();
+	public Product(Integer id, String name, BigDecimal price, String category, String description) {
+		this.id = id;
 		this.name = name;
 		this.price = price;
 		this.category = category;
 		this.description = description;
+	}
+	
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -49,15 +58,10 @@ public class Product {
 		return category;
 	}
 
-
 	public String getDescription() {
 		return description;
 	}
 
-
-	public Integer getId() {
-		return id;
-	}
 
 	@Override
 	public int hashCode() {
