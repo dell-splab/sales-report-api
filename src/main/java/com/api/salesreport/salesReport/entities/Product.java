@@ -46,6 +46,9 @@ public class Product implements Serializable {
 		return name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public BigDecimal getPrice() {
 		return price;
@@ -59,10 +62,17 @@ public class Product implements Serializable {
 		return category;
 	}
 
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
 	public String getDescription() {
 		return description;
 	}
 
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
 	@Override
 	public int hashCode() {
