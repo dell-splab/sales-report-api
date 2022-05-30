@@ -76,7 +76,7 @@ public class DataProcessing {
 			bw.newLine();
 			
 			for (String s: dataMap.get("sales.log")) {
-				valueIsString = fillLinkedHashMap(new String[] {"CLIENT_ID", "PRODUCT_ID", "TIMESTAMP"}, new Boolean[] {false, false, true});
+				valueIsString = fillLinkedHashMap(new String[] {"CLIENT_ID", "PRODUCT_ID", "CREATED_AT"}, new Boolean[] {false, false, true});
 				
 				bw.write(getInsertSQLCommand("sale", valueIsString, s.split(",")));
 				bw.newLine();
