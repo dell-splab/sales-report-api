@@ -17,4 +17,8 @@ public class LeadService {
 	public List<Lead> findAll() {
 		return leadRepository.findAll();
 	}
+	
+	public List<Lead> findAllBySalesPage(String salesPage) {
+		return leadRepository.findAllBySalesPage(salesPage);
+	}
 }

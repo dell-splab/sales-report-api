@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +23,12 @@ public class LeadController {
 	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<List<Lead>> findAll() {
 		List<Lead> list = leadService.findAll();
+		return ResponseEntity.ok().body(list);
+	}
+	
+	@RequestMapping(value = "/{category}",method = RequestMethod.GET)
+	public ResponseEntity<List<Lead>> findAllByCategory(@PathVariable String category) {
+		List<Lead> list = leadService.findAllBySalesPage(category);
 		return ResponseEntity.ok().body(list);
 	}
 }
