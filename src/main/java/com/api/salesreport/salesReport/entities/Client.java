@@ -6,6 +6,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "client")
 public class Client extends Visitor {
+	private static final long serialVersionUID = 1L;
 
 	public Client() {
 		super();

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.api.salesreport.salesReport.entities.Lead;
 import com.api.salesreport.salesReport.repositories.LeadRepository;
@@ -20,5 +21,11 @@ public class LeadService {
 	
 	public List<Lead> findAllBySalesPage(String salesPage) {
 		return leadRepository.findAllBySalesPage(salesPage);
+	}
+	
+	public Lead insert(Lead obj) {
+		obj.setId(null);
+		obj = leadRepository.save(obj);
+		return obj;
 	}
 }
