@@ -1,5 +1,6 @@
 package com.api.salesreport.salesReport.controllers;
 
+import java.net.URI;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -7,12 +8,15 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.api.salesreport.salesReport.Services.ClientService;
 import com.api.salesreport.salesReport.entities.Client;
+
 
 
 
@@ -45,6 +49,15 @@ public class ClientController {
         
         return ResponseEntity.ok().body(clientsCountObj);
     }
+	
+	@RequestMapping(method=RequestMethod.POST)
+	public ResponseEntity<Object> insertClient(@RequestBody Client clientObj){
+		Client newClient = clientService.insertClient(clientObj);
+		
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
+				.path("/{id}").buildAndExpand(newClient.getId()).toUri();
+		return ResponseEntity.ok().body(uri);
+	}
 	
 	
 }

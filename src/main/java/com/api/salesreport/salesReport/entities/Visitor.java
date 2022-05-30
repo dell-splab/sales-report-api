@@ -6,7 +6,7 @@ import javax.persistence.*;
 public abstract class Visitor {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "seq_visitor")
 	protected Integer id;
 
 	@Column(name = "name")
@@ -15,7 +15,7 @@ public abstract class Visitor {
 	@Column(name = "email")
 	protected String email;
 
-	public long getId() {
+	public Integer getId() {
 		return this.id;
 	}
 

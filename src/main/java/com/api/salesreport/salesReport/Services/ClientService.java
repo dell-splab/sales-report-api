@@ -25,5 +25,12 @@ public class ClientService {
 		return clientRepository.findAll().size();
 	}
 	
+	public Client insertClient(Client clientObj) {
+		clientObj.setId(null);
+		Client newClient = clientRepository.save(clientObj);
+		return newClient;
+	}
+
+	
 	
 }
