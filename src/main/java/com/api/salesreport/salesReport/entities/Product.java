@@ -5,27 +5,26 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-
 @Entity
-@SequenceGenerator(name="seq_product", sequenceName="seq_product", allocationSize=1)
+@SequenceGenerator(name = "seq_product", sequenceName = "seq_product", allocationSize = 1)
 public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "seq_product")
 	private Integer id;
-	
+
 	private String name;
-	
+
 	private BigDecimal price;
-	
+
 	private String category;
-	
+
 	private String description;
-	
+
 	public Product() {
 	}
-	
+
 	public Product(Integer id, String name, BigDecimal price, String category, String description) {
 		this.id = id;
 		this.name = name;
@@ -33,7 +32,7 @@ public class Product implements Serializable {
 		this.category = category;
 		this.description = description;
 	}
-	
+
 	public Integer getId() {
 		return id;
 	}
