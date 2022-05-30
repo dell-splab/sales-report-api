@@ -7,7 +7,7 @@ public abstract class Visitor {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	protected long id;
+	protected Integer id;
 
 	@Column(name = "name")
 	protected String name;
@@ -19,7 +19,7 @@ public abstract class Visitor {
 		return this.id;
 	}
 
-	public void setId(long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
