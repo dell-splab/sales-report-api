@@ -1,13 +1,15 @@
-package com.api.salesreport.salesReport.Services;
+package com.api.salesreport.salesReport.services;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.api.salesreport.salesReport.entities.Client;
 
 import com.api.salesreport.salesReport.repositories.ClientRepository;
+import com.api.salesreport.salesReport.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class ClientService {
@@ -19,7 +21,9 @@ public class ClientService {
 	}
 	
 	public Client getClientById(Integer id) {
-		return clientRepository.findById(id).get();
+		Optional<Client> client = clientRepository.findById(id);
+		return client.orElseThrow(() -> new ObjectNotFoundException(
+        		String.format("Product with id %s was not found", id)));
 	}
 	
 	public Integer getClientsCount() {

@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.api.salesreport.salesReport.Services.ClientService;
 import com.api.salesreport.salesReport.entities.Client;
+import com.api.salesreport.salesReport.services.ClientService;
 
 
 
