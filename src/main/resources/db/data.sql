@@ -1,214 +1,214 @@
 insert into client (ID, NAME, EMAIL)
-values(121,'Daniel Ayala','ayala.d@outlook.com');
+values(121, 'Daniel Ayala', 'ayala.d@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(152,'Mary Lyons','lyons.m@gmail.com');
+values(152, 'Mary Lyons', 'lyons.m@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(131,'Kathleen Stevens','stevens.k@icloud.com');
+values(131, 'Kathleen Stevens', 'stevens.k@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(145,'Linda Harvey','harvey.l@outlook.com');
+values(145, 'Linda Harvey', 'harvey.l@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(210,'Anita','anita.a@outlook.com');
+values(210, 'Anita', 'anita.a@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(211,'Jamie Navarro','navarro_j@icloud.com');
+values(211, 'Jamie Navarro', 'navarro_j@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(182,'Heather Moore','moore.h@outlook.com');
+values(182, 'Heather Moore', 'moore.h@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(176,'Deborah Wright','wright_d@icloud.com');
+values(176, 'Deborah Wright', 'wright_d@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(153,'Rachel Martin','martin_r@icloud.com');
+values(153, 'Rachel Martin', 'martin_r@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(155,'Scott Leblanc','leblanc_s@icloud.com');
+values(155, 'Scott Leblanc', 'leblanc_s@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(206,'Gretchen Schwartz','schwartz_g@gmail.com');
+values(206, 'Gretchen Schwartz', 'schwartz_g@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(226,'Lori Heath','heath.l@outlook.com');
+values(226, 'Lori Heath', 'heath.l@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(233,'Edward Zhang','zhang_e@icloud.com');
+values(233, 'Edward Zhang', 'zhang_e@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(139,'Kaylee Ehrmantraut','ehrmantraut.k@gmail.com');
+values(139, 'Kaylee Ehrmantraut', 'ehrmantraut.k@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(148,'Megan Myers','myers_m@outlook.com');
+values(148, 'Megan Myers', 'myers_m@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(183,'John Hendricks','hendricks_j@icloud.com');
+values(183, 'John Hendricks', 'hendricks_j@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(125,'Gale Boetticher','boetticher.g@gmail.com');
+values(125, 'Gale Boetticher', 'boetticher.g@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(128,'Viola Goto','goto_v@icloud.com');
+values(128, 'Viola Goto', 'goto_v@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(116,'Teresa Barrett DVM','dvm.t@icloud.com');
+values(116, 'Teresa Barrett DVM', 'dvm.t@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(221,'Sandra Saunders','saunders.s@outlook.com');
+values(221, 'Sandra Saunders', 'saunders.s@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(119,'Bill Williams','williams_b@icloud.com');
+values(119, 'Bill Williams', 'williams_b@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(129,'Sarah Dickerson','dickerson_s@gmail.com');
+values(129, 'Sarah Dickerson', 'dickerson_s@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(150,'Marie Schrader','schrader_m@gmail.com');
+values(150, 'Marie Schrader', 'schrader_m@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(197,'Tyler Kennedy','kennedy.t@gmail.com');
+values(197, 'Tyler Kennedy', 'kennedy.t@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(185,'Patrick Daniel','daniel_p@gmail.com');
+values(185, 'Patrick Daniel', 'daniel_p@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(166,'Lyle','lyle_l@icloud.com');
+values(166, 'Lyle', 'lyle_l@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(174,'Francesca Liddy','liddy_f@outlook.com');
+values(174, 'Francesca Liddy', 'liddy_f@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(177,'Kevin Wachtell','wachtell.k@icloud.com');
+values(177, 'Kevin Wachtell', 'wachtell.k@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(127,'Leonel Salamanca','salamanca.l@gmail.com');
+values(127, 'Leonel Salamanca', 'salamanca.l@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(216,'Jennifer Johnson','johnson.j@gmail.com');
+values(216, 'Jennifer Johnson', 'johnson.j@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(137,'Dr. Caldera','caldera_d@gmail.com');
+values(137, 'Dr. Caldera', 'caldera_d@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(196,'Jonathan Williams','williams_j@gmail.com');
+values(196, 'Jonathan Williams', 'williams_j@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(154,'Kelly Mcclain','mcclain.k@gmail.com');
+values(154, 'Kelly Mcclain', 'mcclain.k@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(209,'Donald Solis','solis_d@outlook.com');
+values(209, 'Donald Solis', 'solis_d@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(111,'Mark Vega','vega_m@gmail.com');
+values(111, 'Mark Vega', 'vega_m@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(109,'Marco Salamanca','salamanca.m@gmail.com');
+values(109, 'Marco Salamanca', 'salamanca.m@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(203,'Jeffery Shelton','shelton_j@outlook.com');
+values(203, 'Jeffery Shelton', 'shelton_j@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(230,'Paige Novick','novick_p@icloud.com');
+values(230, 'Paige Novick', 'novick_p@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(215,'Lisa Jones','jones_l@gmail.com');
+values(215, 'Lisa Jones', 'jones_l@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(180,'Jimmy McGill','mcgill.j@icloud.com');
+values(180, 'Jimmy McGill', 'mcgill.j@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(141,'Rich Schweikart','schweikart.r@gmail.com');
+values(141, 'Rich Schweikart', 'schweikart.r@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(170,'Walter White','white_w@gmail.com');
+values(170, 'Walter White', 'white_w@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(217,'Natalie Griffin','griffin.n@icloud.com');
+values(217, 'Natalie Griffin', 'griffin.n@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(184,'Mary Church','church_m@gmail.com');
+values(184, 'Mary Church', 'church_m@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(105,'Clifford Main','main.c@gmail.com');
+values(105, 'Clifford Main', 'main.c@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(191,'Ted Beneke','beneke_t@outlook.com');
+values(191, 'Ted Beneke', 'beneke_t@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(193,'Betsy Kettleman','kettleman_b@icloud.com');
+values(193, 'Betsy Kettleman', 'kettleman_b@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(144,'Maureen Bruckner','bruckner_m@icloud.com');
+values(144, 'Maureen Bruckner', 'bruckner_m@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(112,'Karen Arnold','arnold.k@gmail.com');
+values(112, 'Karen Arnold', 'arnold.k@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(117,'Kimberly Wallace','wallace_k@outlook.com');
+values(117, 'Kimberly Wallace', 'wallace_k@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(204,'Patrick Roberts','roberts.p@outlook.com');
+values(204, 'Patrick Roberts', 'roberts.p@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(160,'Robert Baxter','baxter.r@icloud.com');
+values(160, 'Robert Baxter', 'baxter.r@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(192,'Omar','omar_o@outlook.com');
+values(192, 'Omar', 'omar_o@outlook.com');
 
 insert into client (ID, NAME, EMAIL)
-values(136,'Elizabeth Bush','bush.e@icloud.com');
+values(136, 'Elizabeth Bush', 'bush.e@icloud.com');
 
 insert into client (ID, NAME, EMAIL)
-values(106,'Erin Brill','brill_e@gmail.com');
+values(106, 'Erin Brill', 'brill_e@gmail.com');
 
 insert into client (ID, NAME, EMAIL)
-values(151,'Gustago Fring','fring.g@icloud.com');
+values(151, 'Gustago Fring', 'fring.g@icloud.com');
 
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(10,'Notebook Inspiron 13',5599.00,'notebooks','"Tarefas diárias,  estudo e lazer. Windows 11,  Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada Full HD+ de 13.3” (1920 x 1200) 300nits WVA 100% sRGB Low Blue Light SSD de 256GB PCIe NVMe M.2 Memória de 8GB"');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(11,'Notebook XPS 13;',9299.00,'notebooks','"Experiência de alta performance. Windows 11,  Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada UHD+ Touch de 13.4” (3840 x 2400) 500 nits borda infinita e Anti-Smudge SSD de 1TB PCIe NVMe M.2 Memória de 16GB"');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(10, 'Notebook Inspiron 13', 5599.00, 'notebooks', '"Tarefas diárias,  estudo e lazer. Windows 11,  Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada Full HD+ de 13.3” (1920 x 1200) 300nits WVA 100% sRGB Low Blue Light SSD de 256GB PCIe NVMe M.2 Memória de 8GB"');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(12,'Novo Notebook Inspiron 15 3000',2997.00,'notebooks','Placa de vídeo Intel® UHD com memória gráfica compartilhada Full HD de 15.6” (1920 x 1080) WVA SSD de 128GB PCIe NVMe M.2 Memória de 4GB');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(11, 'Notebook XPS 13;', 9299.00, 'notebooks', '"Experiência de alta performance. Windows 11,  Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada UHD+ Touch de 13.4” (3840 x 2400) 500 nits borda infinita e Anti-Smudge SSD de 1TB PCIe NVMe M.2 Memória de 16GB"');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(13,'Notebook Vostro 14 3000',2899.00,'notebooks','Placa de vídeo Intel® UHD com memória gráfica compartilhada HD de 14” (1366 x 768) SSD de 128GB PCIe NVMe M.2 Memória de 4GB');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(12, 'Novo Notebook Inspiron 15 3000', 2997.00, 'notebooks', 'Placa de vídeo Intel® UHD com memória gráfica compartilhada Full HD de 15.6” (1920 x 1080) WVA SSD de 128GB PCIe NVMe M.2 Memória de 4GB');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(14,'All in One Inspiron 24 5000',4699.00,'computadores e PCs','11ª geração de Intel® Core™ i5-1135G7 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(13, 'Notebook Vostro 14 3000', 2899.00, 'notebooks', 'Placa de vídeo Intel® UHD com memória gráfica compartilhada HD de 14” (1366 x 768) SSD de 128GB PCIe NVMe M.2 Memória de 4GB');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(15,'Vostro Small Desktop',2851.00,'computadores e PCs','10ª geração de Intel® Core™ i3-10100 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® UHD com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB Desenvolvido para uso profissional');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(14, 'All in One Inspiron 24 5000', 4699.00, 'computadores e PCs', '11ª geração de Intel® Core™ i5-1135G7 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® Iris® Xe com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(16,'OptiPlex 3090 Micro',2528.00,'computadores e PCs','Desempenho inteligente para empresas. Intel® Pentium® Gold G6505T Windows 10 Pro (A Dell Technologies recomenda o Windows 11 Pro para empresas) SSD de 128GB PCIe NVMe M.2 (Classe 35) Memória de 4 GB');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(15, 'Vostro Small Desktop', 2851.00, 'computadores e PCs', '10ª geração de Intel® Core™ i3-10100 Windows 11 Home Single Language (A Dell Technologies recomenda o Windows 11 Pro para empresas) Placa de vídeo Intel® UHD com memória gráfica compartilhada SSD de 256GB PCIe NVMe M.2 Memória de 8GB Desenvolvido para uso profissional');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(17,'Monitor Dell 18.5” E1920H',819.00,'monitores','"18, 5 1366 x 768 a 60Hz 5ms (cinzento-para-cinzento) VGA DisplayPort"');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(16, 'OptiPlex 3090 Micro', 2528.00, 'computadores e PCs', 'Desempenho inteligente para empresas. Intel® Pentium® Gold G6505T Windows 10 Pro (A Dell Technologies recomenda o Windows 11 Pro para empresas) SSD de 128GB PCIe NVMe M.2 (Classe 35) Memória de 4 GB');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(18,'Monitor Dell de 21.5” E2222HS',1030.00,'monitores','"21.45” Full HD (1080p) 1920 x 1080 a 60Hz,  10 ms (cinza para cinza normal); 5 ms (cinza para cinza rápido) HDMI VGA DisplayPort"');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(17, 'Monitor Dell 18.5” E1920H', 819.00, 'monitores', '"18, 5 1366 x 768 a 60Hz 5ms (cinzento-para-cinzento) VGA DisplayPort"');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(19,'Monitor Dell Gamer de 27” G2722HS',2512.00,'monitores','27” Full HD (1080p) 1920 x 1080 a 165 Hz AMD FreeSync NVIDIA G-SYNC 1ms (cinza-a-cinza) 2xHDMI DisplayPort');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(18, 'Monitor Dell de 21.5” E2222HS', 1030.00, 'monitores', '"21.45” Full HD (1080p) 1920 x 1080 a 60Hz,  10 ms (cinza para cinza normal); 5 ms (cinza para cinza rápido) HDMI VGA DisplayPort"');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(20,'Mochila Dell Pro EcoLoop para notebook',253.00,'acessorios','');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(19, 'Monitor Dell Gamer de 27” G2722HS', 2512.00, 'monitores', '27” Full HD (1080p) 1920 x 1080 a 165 Hz AMD FreeSync NVIDIA G-SYNC 1ms (cinza-a-cinza) 2xHDMI DisplayPort');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(21,'Teclado e Mouse Dell sem fio KM5221W',244.00,'acessorios','A combinação de um teclado discreto e eficiente com um mouse especialmente projetado aumenta sua produtividade.');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(20, 'Mochila Dell Pro EcoLoop para notebook', 253.00, 'acessorios', '');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(22,'Mouse Dell sem fio WM126 - Preto',99.00,'acessorios','"Modo de conexão sem fio. Emparelhamento universal Dell,  suporta até 6 dispositivos no mesmo receptor."');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(21, 'Teclado e Mouse Dell sem fio KM5221W', 244.00, 'acessorios', 'A combinação de um teclado discreto e eficiente com um mouse especialmente projetado aumenta sua produtividade.');
 
-insert into product (ID, NAME,PRICE,CATEGORY,DESCRIPTION)
-values(23,'Servidor Torre PowerEdge T150',4999.00,'servidores','Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local');
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(22, 'Mouse Dell sem fio WM126 - Preto', 99.00, 'acessorios', '"Modo de conexão sem fio. Emparelhamento universal Dell,  suporta até 6 dispositivos no mesmo receptor."');
 
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(23, 'Servidor Torre PowerEdge T150', 4999.00, 'servidores', 'Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local');
 
 insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 16, '2017-03-09T11:28:58.907349');
