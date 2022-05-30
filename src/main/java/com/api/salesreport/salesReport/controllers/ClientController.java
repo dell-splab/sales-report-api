@@ -59,5 +59,12 @@ public class ClientController {
 		return ResponseEntity.ok().body(uri);
 	}
 	
+	@RequestMapping(value="/{id}", method=RequestMethod.PUT)
+	public ResponseEntity<Object> updateClient(@RequestBody Client newClientData, @PathVariable Integer id){
+		newClientData.setId(id);
+		Client newClient = clientService.updateClient(newClientData);		
+		return ResponseEntity.noContent().build();
+	}
+	
 	
 }

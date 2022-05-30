@@ -1,6 +1,7 @@
 package com.api.salesreport.salesReport.Services;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,6 +30,12 @@ public class ClientService {
 		clientObj.setId(null);
 		Client newClient = clientRepository.save(clientObj);
 		return newClient;
+	}
+	
+	public Client updateClient(Client newClientData) {
+		Client client = getClientById(newClientData.getId());
+		client.setName(newClientData.getName());
+		return clientRepository.save(client);		
 	}
 
 	
