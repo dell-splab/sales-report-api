@@ -1,22 +1,15 @@
 package com.api.salesreport.salesReport.controllers;
 
-import java.net.URI;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import javax.validation.Valid;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
+import com.api.salesreport.salesReport.entities.Client;
 import com.api.salesreport.salesReport.entities.Lead;
 import com.api.salesreport.salesReport.services.LeadService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.net.URI;
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/leads")
@@ -28,12 +21,19 @@ public class LeadController {
 	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<List<Lead>> findAll() {
 		List<Lead> list = leadService.findAll();
+		leadService.getOpps();
 		return ResponseEntity.ok().body(list);
 	}
 	
 	@RequestMapping(value = "/{category}",method = RequestMethod.GET)
 	public ResponseEntity<List<Lead>> findAllByCategory(@PathVariable String category) {
 		List<Lead> list = leadService.findAllBySalesPage(category);
+		return ResponseEntity.ok().body(list);
+	}
+
+	@RequestMapping(value = "/opps",method = RequestMethod.GET)
+	public ResponseEntity<List<Client>> findOpps() {
+		List<Client> list = leadService.getOpps();
 		return ResponseEntity.ok().body(list);
 	}
 	
