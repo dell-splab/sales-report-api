@@ -38,8 +38,19 @@ public class ClientService {
 	
 	public Client updateClient(Client newClientData) {
 		Client client = getClientById(newClientData.getId());
-		client.setName(newClientData.getName());
+		updateClientData(newClientData, client);
+		
 		return clientRepository.save(client);		
+	}
+	
+	
+	private void updateClientData(Client newClientData, Client client) {
+		if (newClientData.getName() != null) {
+			client.setName(newClientData.getName());
+		}
+		if (newClientData.getEmail() != null) {
+			client.setEmail(newClientData.getEmail());
+		}
 	}
 
 	

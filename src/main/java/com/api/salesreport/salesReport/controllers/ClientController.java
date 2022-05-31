@@ -62,8 +62,12 @@ public class ClientController {
 	@RequestMapping(value="/{id}", method=RequestMethod.PUT)
 	public ResponseEntity<Object> updateClient(@RequestBody Client newClientData, @PathVariable Integer id){
 		newClientData.setId(id);
-		Client newClient = clientService.updateClient(newClientData);		
-		return ResponseEntity.noContent().build();
+		
+		Client newClient = clientService.updateClient(newClientData);
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
+				.path("/{id}").buildAndExpand(newClient.getId()).toUri();
+		
+		return ResponseEntity.created(uri).body(newClient);
 	}
 	
 	
