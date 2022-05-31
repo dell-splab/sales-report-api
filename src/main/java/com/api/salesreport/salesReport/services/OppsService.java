@@ -30,10 +30,6 @@ public class OppsService {
 	@Autowired
 	private ProductRepository productRepository;
 
-	private OppsDTO toDTO(Integer clientID, String salesPage) {
-		return new OppsDTO(clientID, salesPage);
-	}
-
 	public List<OppsDTO> getOpps() {
 
 		List<Sale> clientSales = saleRepository.findAll();
