@@ -6,8 +6,8 @@ import javax.persistence.*;
 public abstract class Visitor {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	protected long id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "seq_visitor")
+	protected Integer id;
 
 	@Column(name = "name")
 	protected String name;
@@ -15,11 +15,11 @@ public abstract class Visitor {
 	@Column(name = "email")
 	protected String email;
 
-	public long getId() {
+	public Integer getId() {
 		return this.id;
 	}
 
-	public void setId(long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
