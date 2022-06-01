@@ -45,14 +45,12 @@ public class ClientService {
 	
 	
 	private void updateClientData(Client newClientData, Client client) {
-		if (newClientData.getName() != null) {
+		if (newClientData.getName() != null && !newClientData.getName().isEmpty()) {
 			client.setName(newClientData.getName());
 		}
-		if (newClientData.getEmail() != null) {
+		if (newClientData.getEmail() != null && !newClientData.getEmail().isEmpty()) {
 			client.setEmail(newClientData.getEmail());
 		}
 	}
-
-	
 	
 }

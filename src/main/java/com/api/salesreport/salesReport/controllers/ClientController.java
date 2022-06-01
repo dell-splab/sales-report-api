@@ -53,10 +53,7 @@ public class ClientController {
 	@RequestMapping(method=RequestMethod.POST)
 	public ResponseEntity<Object> insertClient(@RequestBody Client clientObj){
 		Client newClient = clientService.insertClient(clientObj);
-		
-		URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
-				.path("/{id}").buildAndExpand(newClient.getId()).toUri();
-		return ResponseEntity.ok().body(uri);
+		return ResponseEntity.noContent().build();
 	}
 	
 	@RequestMapping(value="/{id}", method=RequestMethod.PUT)
