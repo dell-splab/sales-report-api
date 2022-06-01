@@ -5,10 +5,12 @@ import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import com.api.salesreport.salesReport.entities.Client;
 
 import com.api.salesreport.salesReport.repositories.ClientRepository;
+import com.api.salesreport.salesReport.services.exceptions.DataIntegrityException;
 import com.api.salesreport.salesReport.services.exceptions.ObjectNotFoundException;
 
 @Service
@@ -41,6 +43,16 @@ public class ClientService {
 		updateClientData(newClientData, client);
 		
 		return clientRepository.save(client);		
+	}
+	
+	public void deleteClient(Integer id) {
+		getClientById(id);
+		try {
+			clientRepository.deleteById(id);
+		}
+		catch (DataIntegrityViolationException e) {
+			throw new DataIntegrityException("Cannot delete because there are sales related to this product.");
+		}	
 	}
 	
 	

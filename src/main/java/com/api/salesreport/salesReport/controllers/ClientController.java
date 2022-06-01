@@ -69,5 +69,11 @@ public class ClientController {
 		return ResponseEntity.created(uri).body(newClient);
 	}
 	
+	@RequestMapping(value="/{id}", method=RequestMethod.DELETE)
+	public ResponseEntity<Void> deleteClient(@PathVariable Integer id){
+		clientService.deleteClient(id);
+		return ResponseEntity.noContent().build();
+	}
+	
 	
 }
