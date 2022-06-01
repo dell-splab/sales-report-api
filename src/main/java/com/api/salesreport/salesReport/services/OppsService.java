@@ -64,7 +64,6 @@ public class OppsService {
 			}
 		}
 
-		List<Client> clients = new ArrayList<>();
 		List<OppsDTO> listOppsDto = new ArrayList<>();
 		for (String s: setFilterClientsEmails) {
 			List<Product> productsCopy = new ArrayList<>(products);
@@ -72,9 +71,11 @@ public class OppsService {
 			productsCopy.removeAll(mapClientProducts.get(s));
 			List<String> categoriesOpps = productsCopy.stream().map(Product::getCategory).collect(Collectors.toList());
 
-			for (Lead lead : leadRepository.findAllByEmail(s)) {
-				if (categoriesOpps.contains(lead.getSalesPage())) {
-					listOppsDto.add(new OppsDTO(clientRepository.findByEmail(s).getId(), lead.getSalesPage()));
+			for (Lead lead: leadRepository.findAllByEmail(s)) {
+				
+				Optional<Client> optClient = clientRepository.findByEmail(s);
+				if (categoriesOpps.contains(lead.getSalesPage()) && optClient.isPresent()) {
+					listOppsDto.add(new OppsDTO(optClient.get().getId(), lead.getSalesPage()));
 				}
 			}
 		}
