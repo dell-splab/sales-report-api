@@ -16,4 +16,8 @@ public class SaleService {
 	 public List<Sale> getAllSales() {
 		return saleRepository.findAll();
 	 }
+	 
+	 public Integer getSalesCount() {
+			return saleRepository.findAll().size();
+		}
 }

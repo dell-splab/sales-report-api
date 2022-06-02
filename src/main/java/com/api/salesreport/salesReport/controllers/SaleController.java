@@ -1,6 +1,8 @@
 package com.api.salesreport.salesReport.controllers;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -24,4 +26,14 @@ public class SaleController {
 		List<Sale> sales = saleService.getAllSales();
 		return ResponseEntity.ok().body(sales);
 	}
+	
+	@RequestMapping(value="/count", method= RequestMethod.GET)
+    public ResponseEntity<Map<String, Integer>> getSalesCount() {
+        Integer salesCount = saleService.getSalesCount();
+        
+        Map<String, Integer> salesCountObj = new HashMap<>();    
+        salesCountObj.put("count", salesCount);
+        
+        return ResponseEntity.ok().body(salesCountObj);
+    }
 }
