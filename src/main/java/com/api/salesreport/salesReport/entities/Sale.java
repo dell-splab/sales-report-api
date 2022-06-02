@@ -30,6 +30,13 @@ public class Sale {
 		super();
 	}
 
+	public Sale(long clientId, long productId, Date createdAt) {
+		super();
+		this.clientId = clientId;
+		this.productId = productId;
+		this.createdAt = createdAt;
+	}
+
 	public long getId() {
 		return this.id;
 	}
