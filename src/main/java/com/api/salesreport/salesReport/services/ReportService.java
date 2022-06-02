@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -19,10 +20,28 @@ public class ReportService {
 	@Autowired
 	private SaleRepository saleRepository;
 
-	public List<Product> getTopSellers() {
+	public List<Product> getTopSellersAllCategories() {
+		return getTopSellers(null);
+	}
 
-		List<Sale> sales = saleRepository.findAll();
+	public List<Product> getTopSellersByCategory(String category) {
+		return getTopSellers(category);
+	}
 
+	private List<Product> getTopSellers(String category) {
+
+		List<Sale> sales;
+		if (category == null) {
+			sales = saleRepository.findAll();
+		}
+		else {
+			List<Integer> productsIds = productRepository.findAllByCategory(category)
+					.stream().map(Product::getId).collect(Collectors.toList());
+
+			sales = saleRepository.findAll().stream()
+					.filter(x -> productsIds.contains(x.getProductId()))
+					.collect(Collectors.toList());
+		}
 		Map<Integer, Integer> mapProductsSold = new HashMap<>();
 
 		for (Sale s: sales) {
@@ -37,7 +56,7 @@ public class ReportService {
 		for (int i = 0; i < 3; i++) {
 			int highestValue = 0;
 			int highestProductId = 0;
-			for (Integer productId : mapProductsSold.keySet()) {
+			for (Integer productId: mapProductsSold.keySet()) {
 
 				Integer amount = mapProductsSold.get(productId);
 				if (amount > highestValue) {
