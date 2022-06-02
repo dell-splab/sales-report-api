@@ -7,18 +7,17 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.api.salesreport.salesReport.services.exceptions.DataIntegrityException;
-import com.api.salesreport.salesReport.services.exceptions.ObjectNotFoundException;
+import com.api.salesreport.salesReport.services.exceptions.*;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
 
 	@ExceptionHandler(ObjectNotFoundException.class)
 	public ResponseEntity<StandardError> objectNotFound(ObjectNotFoundException e, HttpServletRequest request) {
-		
+
 		StandardError err = new StandardError(System.currentTimeMillis(), HttpStatus.NOT_FOUND.value(), 
 				                              "Not found", e.getMessage(), request.getRequestURI());
-		
+
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(err);
 	}
 
