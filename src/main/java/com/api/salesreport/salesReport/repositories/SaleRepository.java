@@ -7,5 +7,4 @@ import com.api.salesreport.salesReport.entities.Sale;
 
 @Repository
 public interface SaleRepository extends JpaRepository<Sale, Integer>{
-
 }
