@@ -40,6 +40,7 @@ public class SaleController {
 	
 	@RequestMapping(method=RequestMethod.POST)
 	public ResponseEntity<Object> insertSales(@RequestBody Map saleObj){
+		saleService.insertSale(saleObj);
 		return ResponseEntity.noContent().build();
 	}
 }
