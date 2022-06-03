@@ -24,6 +24,13 @@ public class Sale {
 		super();
 	}
 
+	public Sale(Integer clientId, Integer productId, Date createdAt) {
+		super();
+		this.clientId = clientId;
+		this.productId = productId;
+		this.createdAt = createdAt;
+	}
+
 	public Integer getId() {
 		return id;
 	}
