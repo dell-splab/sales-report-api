@@ -1,13 +1,7 @@
 package com.api.salesreport.salesReport.entities;
 
+import javax.persistence.*;
 import java.util.Date;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
 @Table(name = "sale")
@@ -15,13 +9,13 @@ public class Sale {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Integer id;
 
 	@Column(name = "client_id")
-	private long clientId;
+	private Integer clientId;
 
 	@Column(name = "product_id")
-	private long productId;
+	private Integer productId;
 
 	@Column(name = "created_at")
 	private Date createdAt;
@@ -30,27 +24,27 @@ public class Sale {
 		super();
 	}
 
-	public long getId() {
-		return this.id;
+	public Integer getId() {
+		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
-	public long getClientId() {
-		return this.clientId;
+	public Integer getClientId() {
+		return clientId;
 	}
 
-	public void setClientId(long clientId) {
+	public void setClientId(Integer clientId) {
 		this.clientId = clientId;
 	}
 
-	public long getProductId() {
-		return this.productId;
+	public Integer getProductId() {
+		return productId;
 	}
 
-	public void setProductId(long productId) {
+	public void setProductId(Integer productId) {
 		this.productId = productId;
 	}
 
