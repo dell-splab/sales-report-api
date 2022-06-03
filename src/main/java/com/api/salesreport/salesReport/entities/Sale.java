@@ -1,9 +1,8 @@
 package com.api.salesreport.salesReport.entities;
 
 import javax.persistence.*;
-
-import java.io.Serializable;
 import java.util.Date;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "sale")
@@ -32,7 +31,6 @@ public class Sale implements Serializable {
 		this.productId = productId;
 		this.createdAt = createdAt;
 	}
-
 
 
 	public Integer getId() {
