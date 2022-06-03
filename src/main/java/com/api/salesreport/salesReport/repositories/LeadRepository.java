@@ -11,7 +11,7 @@ import java.util.List;
 public interface LeadRepository extends JpaRepository<Lead, Integer> {
 
 	@Transactional(readOnly=true)
-	Lead findByEmail(String email);
+	List<Lead> findAllByEmail(String salesPage);
 
 	@Transactional(readOnly=true)
 	List<Lead> findAllBySalesPage(String salesPage);
