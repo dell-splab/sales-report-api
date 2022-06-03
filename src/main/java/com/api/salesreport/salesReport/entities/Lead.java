@@ -7,6 +7,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Lead")
 public class Lead extends Visitor {
+	private static final long serialVersionUID = 1L;
 
 	@Column(name = "sales_page")
 	private String salesPage;
@@ -16,9 +17,15 @@ public class Lead extends Visitor {
 	}
 
 	public Lead(String name, String email, String salesPage) {
-		super();
-		this.name = name;
-		this.email = email;
+		super(name, email);
+		this.salesPage = salesPage;
+	}
+
+	public String getSalesPage() {
+		return salesPage;
+	}
+
+	public void setSalesPage(String salesPage) {
 		this.salesPage = salesPage;
 	}
 
