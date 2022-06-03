@@ -1,9 +1,12 @@
 package com.api.salesreport.salesReport.entities;
 
+import java.io.Serializable;
+
 import javax.persistence.*;
 
 @MappedSuperclass
-public abstract class Visitor {
+public abstract class Visitor implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "seq_visitor")
@@ -14,6 +17,14 @@ public abstract class Visitor {
 
 	@Column(name = "email")
 	protected String email;
+	
+	public Visitor() {
+	}
+
+	public Visitor(String name, String email) {
+		this.name = name;
+		this.email = email;
+	}
 
 	public Integer getId() {
 		return this.id;
