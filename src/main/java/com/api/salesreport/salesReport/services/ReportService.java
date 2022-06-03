@@ -20,15 +20,15 @@ public class ReportService {
 	@Autowired
 	private SaleRepository saleRepository;
 
-	public List<Product> getTopSellersAllCategories() {
-		return getTopSellers(null);
+	public List<Product> getTopSellersAllCategories(Integer top) {
+		return getTopSellers(top, null);
 	}
 
-	public List<Product> getTopSellersByCategory(String category) {
-		return getTopSellers(category);
+	public List<Product> getTopSellersByCategory(Integer top, String category) {
+		return getTopSellers(top, category);
 	}
 
-	private List<Product> getTopSellers(String category) {
+	private List<Product> getTopSellers(Integer top, String category) {
 
 		List<Sale> sales;
 		if (category == null) {
@@ -53,7 +53,7 @@ public class ReportService {
 		}
 
 		List<Product> productsResult = new ArrayList<>();
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < top; i++) {
 			int highestValue = 0;
 			int highestProductId = 0;
 			for (Integer productId: mapProductsSold.keySet()) {
