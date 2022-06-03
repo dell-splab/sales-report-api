@@ -206,10 +206,15 @@ values(21, 'Teclado e Mouse Dell sem fio KM5221W', 244.00, 'acessorios', 'A comb
 
 insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
 values(22, 'Mouse Dell sem fio WM126 - Preto', 99.00, 'acessorios', '"Modo de conexão sem fio. Emparelhamento universal Dell,  suporta até 6 dispositivos no mesmo receptor."');
+<<<<<<< HEAD
 
 insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
 values(23, 'Servidor Torre PowerEdge T150', 4999.00, 'servidores', 'Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local');
+=======
+>>>>>>> dev
 
+insert into product (ID, NAME, PRICE, CATEGORY, DESCRIPTION)
+values(23, 'Servidor Torre PowerEdge T150', 4999.00, 'servidores', 'Intel® Pentium 8GB 1x HD de 2TB 1 ano de assistência básica no local');
 
 insert into sale (CLIENT_ID, PRODUCT_ID, CREATED_AT)
 values(197, 16, '2017-03-09T11:28:58.907349');
