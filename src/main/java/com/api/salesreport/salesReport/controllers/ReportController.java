@@ -20,17 +20,19 @@ public class ReportController {
 	private ReportService reportService;
 
 	@RequestMapping(value = "/topsellers", method = RequestMethod.GET)
-	public ResponseEntity<List<Product>> findTopSellers(@RequestParam(value = "top", defaultValue = "3") Integer top) {
-		List<Product> list = reportService.getTopSellersAllCategories(top);
-
+	public ResponseEntity<List<Product>> findTopSellers(@RequestParam(value = "top", defaultValue = "3") Integer top,
+			                                            @RequestParam(value = "window", defaultValue = "today") String window) {
+		
+		List<Product> list = reportService.getTopSellersAllCategories(top, window);
 		return ResponseEntity.ok().body(list);
 	}
 
 	@RequestMapping(value = "/topsellers/{category}", method = RequestMethod.GET)
 	public ResponseEntity<List<Product>> findTopSellersByCategory(@PathVariable String category, 
-																  @RequestParam(value = "top", defaultValue = "3") Integer top) {
-		List<Product> list = reportService.getTopSellersByCategory(top, category);
-
+																  @RequestParam(value = "top", defaultValue = "3") Integer top,
+						                                          @RequestParam(value = "window", defaultValue = "today") String window) {
+		
+		List<Product> list = reportService.getTopSellersByCategory(category, top, window);
 		return ResponseEntity.ok().body(list);
 	}
 

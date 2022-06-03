@@ -20,15 +20,15 @@ public class ReportService {
 	@Autowired
 	private SaleRepository saleRepository;
 
-	public List<Product> getTopSellersAllCategories(Integer top) {
-		return getTopSellers(top, null);
+	public List<Product> getTopSellersAllCategories(Integer top, String window) {
+		return getTopSellers(null, top, window);
 	}
 
-	public List<Product> getTopSellersByCategory(Integer top, String category) {
-		return getTopSellers(top, category);
+	public List<Product> getTopSellersByCategory(String category, Integer top, String window) {
+		return getTopSellers(category, top, window);
 	}
 
-	private List<Product> getTopSellers(Integer top, String category) {
+	private List<Product> getTopSellers(String category, Integer top, String window) {
 
 		List<Sale> sales;
 		if (category == null) {
@@ -42,9 +42,14 @@ public class ReportService {
 					.filter(x -> productsIds.contains(x.getProductId()))
 					.collect(Collectors.toList());
 		}
+		
+		if (!window.equals("all")) {
+			sales = sales.stream().filter(x -> verifyDataSale(window, x.getCreatedAt())).collect(Collectors.toList());
+		}
+		
 		Map<Integer, Integer> mapProductsSold = new HashMap<>();
-
 		for (Sale s: sales) {
+						
 			if (!mapProductsSold.containsKey(s.getProductId())) {
 				mapProductsSold.put(s.getProductId(), 0);
 			}
@@ -71,6 +76,52 @@ public class ReportService {
 		}
 
 		return productsResult;
+	}
+	
+	private boolean verifyDataSale(String window, Date dateSale) {
+		
+		Date date = new Date();
+		Calendar calToday = Calendar.getInstance();
+		calToday.setTime(date);
+		
+		int lastYear = calToday.get(Calendar.YEAR);
+		int lastMonth = calToday.get(Calendar.MONTH);
+		int lastWeek = calToday.get(Calendar.WEEK_OF_YEAR);
+		int lastDay = calToday.get(Calendar.DAY_OF_YEAR);
+		
+		Calendar calSale = Calendar.getInstance();
+		calSale.setTime(dateSale);
+		int saleYear = calSale.get(Calendar.YEAR);
+		int saleMonth = calSale.get(Calendar.MONTH);
+		int saleWeek = calSale.get(Calendar.WEEK_OF_YEAR);
+		int saleDay = calSale.get(Calendar.DAY_OF_YEAR);
+		
+		boolean result = false;
+		if (window.equals("today")) {
+			if ( (lastYear == saleYear) && (lastMonth == saleMonth) && (lastWeek == saleWeek) && (lastDay == saleDay) ) {
+				result = true;
+			}
+		}
+		else if (window.equals("week")) {
+			if ( (lastYear == saleYear) && (lastMonth == saleMonth) && (lastWeek == saleWeek) ) {
+				result = true;
+			}
+		}
+		else if (window.equals("month")) {
+			if ( (lastYear == saleYear) && (lastMonth == saleMonth) ) {
+				result = true;
+			}
+		}
+		else if (window.equals("year")) {
+			if ( (lastYear == saleYear) ) {
+				System.out.println("test");
+				result = true;
+			}
+		}
+	
+		
+		return result;
+				
 	}
 
 }
