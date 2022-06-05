@@ -114,7 +114,6 @@ public class ReportService {
 		}
 		else if (window.equals("year")) {
 			if ( (lastYear == saleYear) ) {
-				System.out.println("test");
 				result = true;
 			}
 		}
