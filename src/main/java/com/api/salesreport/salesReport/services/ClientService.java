@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
-import com.api.salesreport.salesReport.entities.Client;
 
+import com.api.salesreport.salesReport.entities.Client;
 import com.api.salesreport.salesReport.repositories.ClientRepository;
 import com.api.salesreport.salesReport.services.exceptions.DataIntegrityException;
 import com.api.salesreport.salesReport.services.exceptions.ObjectNotFoundException;
@@ -24,7 +24,7 @@ public class ClientService {
 	public Client getClientById(Integer id) {
 		Optional<Client> client = clientRepository.findById(id);
 		return client.orElseThrow(() -> new ObjectNotFoundException(
-				String.format("Product with id %s was not found", id)));
+        		String.format("Client with id %s was not found", id)));
 	}
 
 	public Integer getClientsCount() {
@@ -48,11 +48,12 @@ public class ClientService {
 		getClientById(id);
 		try {
 			clientRepository.deleteById(id);
-		} catch (DataIntegrityViolationException e) {
-			throw new DataIntegrityException("Cannot delete because there are sales related to this product.");
 		}
+		catch (DataIntegrityViolationException e) {
+			throw new DataIntegrityException("Cannot delete because there are sales related to this client.");
+		}	
 	}
-
+	
 	private void updateClientData(Client newClientData, Client client) {
 		if (newClientData.getName() != null && !newClientData.getName().isEmpty()) {
 			client.setName(newClientData.getName());

@@ -15,9 +15,7 @@ public class Client extends Visitor {
 	}
 
 	public Client(String name, String email) {
-		super();
-		this.name = name;
-		this.email = email;
+		super(name, email);
 	}
 
 }
